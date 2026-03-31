@@ -7,11 +7,11 @@ export default function Layout() {
       <Drawer.Screen
         name="index" // This is the name of the page and must match the url from root
         options={{
+          drawerLabel: 'Inicio',
+          title: 'Bem vindo',  
           drawerIcon: ({ color, size }) => (
         <Ionicons name="home-outline" size={size} color={color} />
   ),
-          drawerLabel: 'Inicio',
-          title: 'Bem vindo',
         }}
       />
       <Drawer.Screen
@@ -19,6 +19,9 @@ export default function Layout() {
         options={{
           drawerLabel: 'Entrar',
           title: 'Cadastro',
+            drawerIcon: ({ color, size }) => (
+        <Ionicons name="arrow-forward-circle" size={size} color={color} />
+  ),
         }}
       />
       <Drawer.Screen
@@ -26,6 +29,9 @@ export default function Layout() {
         options={{
           drawerLabel: 'Aulas',
           title: 'Cadastro',
+            drawerIcon: ({ color, size }) => (
+        <Ionicons name="clipboard" size={size} color={color} />
+  ),
         }}
       />
       <Drawer.Screen
@@ -33,6 +39,9 @@ export default function Layout() {
         options={{
           drawerLabel: 'Downlaoads',
           title: 'Cadastro',
+            drawerIcon: ({ color, size }) => (
+        <Ionicons name="arrow-down" size={size} color={color} />
+  ),
         }}
       />
     </Drawer>
