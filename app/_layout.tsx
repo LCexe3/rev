@@ -18,7 +18,7 @@ export default function Layout() {
         name="form" // This is the name of the page and must match the url from root
         options={{
           drawerLabel: 'Entrar',
-          title: 'Cadastro',
+          title: 'Entrar',
             drawerIcon: ({ color, size }) => (
         <Ionicons name="arrow-forward-circle" size={size} color={color} />
   ),
@@ -28,7 +28,7 @@ export default function Layout() {
         name="tabs" // This is the name of the page and must match the url from root
         options={{
           drawerLabel: 'Aulas',
-          title: 'Cadastro',
+          title: 'Aulas',
             drawerIcon: ({ color, size }) => (
         <Ionicons name="clipboard" size={size} color={color} />
   ),
@@ -38,7 +38,7 @@ export default function Layout() {
         name="stack" // This is the name of the page and must match the url from root
         options={{
           drawerLabel: 'Downlaoads',
-          title: 'Cadastro',
+          title: 'Downloads',
             drawerIcon: ({ color, size }) => (
         <Ionicons name="arrow-down" size={size} color={color} />
   ),
